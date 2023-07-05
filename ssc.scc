@@ -1,0 +1,28 @@
+
+
+ * {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: lightblue;
+  position: fixed;
+  top: 0;
+}
+
+
+.main {
+  margin-left: 260px;
+}
+
+@media (max-width: 750px) {
+  .sidebar {
+    width: 20px;
+  }
+
+  .main {
+    margin-left: 25px;
+  }
+}
